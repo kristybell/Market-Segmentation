@@ -174,38 +174,3 @@ clusters_new
 plt.scatter(clusters_new['Satisfaction'],clusters_new['Loyalty'], c=clusters_new['cluster_pred'],cmap='rainbow')
 plt.xlabel('Satisfaction')
 plt.ylabel('Loyalty')
-
-
-# In[20]:
-
-
-# we often choose to plot using the original values for clearer interpretability
-# NOTE: the discrepancy we observe here depends on the range of the axes too
-# naming clusters is very important
-# Lower Left = 'Alienated'
-# Blue = 'Everything Else'
-
-# trying all 4 cluster types, it seems that '4' is the most optimal of them all
-
-
-# In[21]:
-
-
-# How is Clustering Helpful?
-
-# Types of Analysis: 
-#   1. Exploratory - get acquainted with data, search for patterns, plan
-#                   (i.e. data visualization, descriptive, clustering)
-#   2. Confirmatory - explain a phenomenon, confirm a hypothesis, validate previous research
-#   3. Explanatory - explain a phenomenon, confirm a hypothesis, validate previous research
-#                   (i.e. mostly commonly type of analysis for using clustering)
-
-# Big Advantage: showing market changes
-
-# Alienated -> Low Satisfaction, Low Loyalty
-# Supporters -> Low Satisfaction, High Loyalty
-# Fans -> High Satisfaction, High Loyalty
-# Roamers -> High Satisfaction, Low Loyalty
-
-# How to increase loyalty: sales, loyalty cards, raffles
-
